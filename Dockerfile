@@ -1,8 +1,8 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 LABEL version="1.0.0"
-LABEL repository="https://github.com/mercari/Whitesource-Scan-Action"
-LABEL maintainer="Azeem Shezad Ilyas <azeemilyas@hotmail.com>"
+LABEL repository="https://github.com/SolaceDev/Mend-Scan-GHA"
+LABEL maintainer="Solace Cooperation"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV JAVA_HOME       /usr/lib/jvm/java-8-openjdk-amd64
